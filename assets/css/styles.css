@@ -1,7 +1,7 @@
-*{ color: rgba(38, 38, 38, 0.415);}
-h1{color:black;}
-h1 suab{color:rgb(98, 64, 19);}
-ul{ color: grey;
-}
-h3{color:rgb(249, 169, 249);}
-a:hover {color: rgb(30, 68, 255);} 
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+/*--------------- IMPORTAR TODOS LOS CSS-----------------*/
+@import 'partials/_variables.css';
+@import 'partials/_general.css';
+@import 'partials/_header.css';
+@import 'partials/_main.css';
+@import 'partials/_footer.css';

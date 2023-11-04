@@ -1,0 +1,50 @@
+/* Estilo para el navbar*/
+.navbar{
+    margin-bottom: 0px !important;
+  }
+nav{
+    position: fixed;
+    width: 100%;
+  /*z-index: 1000;*/
+    margin-bottom: 0px;
+    top: 0;
+    left: 0;
+   /* z-index: 1;
+    width: 100%;
+    display: flex;*/
+    background-color: var(--bg-color);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+
+}
+nav h1{
+    color: var(--prymary-color);
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.menu-burguer {
+    display: none;
+    cursor: pointer;
+
+}
+/*Media Query para que el bloque de codigo css sea responsive*/
+/*@media screen and (max-with : 720px) {
+    .menu-burguer {
+        display: block;
+        cursor: pointer;
+    
+    }
+
+    nav ul{
+        display: fixed;
+        flex-direction: column;
+        top: 86px;
+        width: 90px;
+        background-color: var(--bg-color);
+    }
+}*/
