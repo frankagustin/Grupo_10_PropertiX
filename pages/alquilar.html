@@ -63,48 +63,24 @@
         </ul>
       </div>
     </nav>
-    <main>
-      <section>
-        <div class="container">
-          <div class="row">
-              <h2>Contacto</h2>
-              <div class="col-9">
-                  <form class="row g-3 needs-validation" action="https://formspree.io/f/xnqkgzwd" method="POST">
-                      <div class="col-md-4">
-                          <label for="nombre" class="form-label">Apellido y Nombre</label>
-                          <input type="text" class="form-control" id="nombre" name="nombre" required>
-                      </div>
-                      <div class="col-md-4">
-
-                      </div>
-                      <div class="col-md-6">
-                          <label for="correo" class="form-label">Ingrese el correo:</label>
-                          
-                          <div class="input-group has-validation">
-                            <span class="input-group-text" id="inputGroupPrepend">@</span>
-                              <input type="email" class="form-control" id="correo" name="correo"
-                                  aria-describedby="inputGroupPrepend" required>
-                          </div>                                
-                      </div>
-                      <div class="col-md-4">
-
-                      </div>
-                      <div class="col-md-6">
-                          <textarea class="form-control" id="mensaje" name="mensaje" rows="3" required>
-
-                          </textarea>
-                      </div>
-
-                      <div class="col-12">
-                          <button class="btn btn-primary" type="submit">Enviar</button>
-                      </div>
-                  </form>
-              </div>
-          </div>
-      </div>
-      </section>
-    </main>
     
+    <div class="container">
+        <main>
+            <h1>Lista de Articulos (Consulta API)</h1>
+            <div class="busqueda">
+                <label>Buscar</label>
+                <input type="text" id="buscar" value="" placeholder="Buscar por Título">
+                <!-- <input type="button" id="btnBuscar" value="Buscqueda" placeholder="Buscar por texto"> -->
+                <button id="btnBuscar">Buscar</button> 
+            </div>
+
+                <div id="resultado">
+        
+                </div>
+        
+            
+        </main>
+    </div>
     <footer class="footer">
       
       <div class="col-sm logos">
@@ -166,7 +142,8 @@
     ></script>
     
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+    
+    <script src="../assets/js/script.js"></script>
     <!-- <script src="../assets/js/scriptAlert.js"></script>
 
     <script src="../assets/js/scriptFunciones.js"></script> -->
