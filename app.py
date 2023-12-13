@@ -1,4 +1,5 @@
 from flask import Flask,render_template,request,jsonify # importamos microframework de flask
+""" 
 from flask_cors import CORS
 #import urllib.request
 
@@ -6,7 +7,6 @@ from flask_cors import CORS
 import io
 import PIL.Image as Image
 
-""" 
 import numpy
 import os
 from werkzeug.utils import secure_filename
@@ -109,6 +109,8 @@ class Persona:
     
 
 conexion_persona=Persona(host="localhost",user="root",password="root",database="persona")
+#conexion_persona=Persona(host="isidrobenitez.mysql.pythonanywhere-services.com",user="isidrobenitez",password="codoacodo",database="persona")
+
 #mysql = MySQL()
 
 # CONFIGURACIONES DE MI BASE DE DATOS

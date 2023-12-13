@@ -1,4 +1,5 @@
 const URL = "http://127.0.0.1:4000"
+//const URL = "https://isidrobenitez.pythonanywhere.com"
 
 //alert('ingreso a listado')
 fetch(URL + '/metodos') // Obtener los Clientes

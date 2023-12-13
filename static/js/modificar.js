@@ -1,4 +1,5 @@
 const URL = "http://127.0.0.1:4000"
+//const URL = "https://isidrobenitez.pythonanywhere.com"
 
 /* const queryString = window.location.search; // Obtener la query string de la URL
 const urlParams = new URLSearchParams(queryString); // Obtener los parámetros de la query string

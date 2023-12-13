@@ -1,5 +1,7 @@
 
 const URL = "http://127.0.0.1:4000"
+//const URL = "https://isidrobenitez.pythonanywhere.com"
+
 const documento = document.getElementById('formulario');
 
 documento.addEventListener('submit', e => {
