@@ -1,3 +1,5 @@
+<h1>REPOSITORIO ORIGINAL https://github.com/moitejada/Grupo_10_PropertiX</h1>
+<h1>BIFURCACION: https://github.com/frankagustin/Grupo_10_PropertiX</h1>
 <h1 align="center">:construction:"PropertiX - Plataforma digital para la compra, venta y alquiler de propiedades":construction:</h1>
 
 <h2>:hammer:Temática del sitio y público objetivo.</h2>
